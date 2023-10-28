@@ -1,0 +1,34 @@
+Web Design Front-End
+
+O programador front-end é o responsável por estruturar a parte visual do site, a que é manipulada pelo usuário. Ou seja, cuida de tudo o que podemos ver na parte da fachada de um site web: botões, menus, carrossel, links, imagens, vídeos, caixas de formulários, entre outros. Entre as linguagens básicas para isso estão o HTML, o CSS e o JavaScript.
+
+ui - ux
+O UX/UI Designer é o responsável pela experiência e navegação dos usuários em multiplataformas como websites e aplicações mobile.
+
+HTML 5 - CSS 3
+A linguagem HTML é responsável pela inserção de conteúdo e estrutura em uma página Web. Já o CSS define seu estilo visual.
+
+Javascript
+JavaScript uma das três principais tecnologias da World Wide Web. Permite páginas da Web interativas, é parte essencial dos aplicativos web
+
+
+Habilidades técnicas de um desenvolvedor web competente
+Naturalmente, um bom desenvolvedor web precisa saber programar muito bem. Isso inclui uma boa lógica para solução de problemas comuns e o domínio das sintaxes e características das linguagens de programação. Além disso, é muito importante também saber os frameworks mais utilizados para cada uma das linguagens.
+Afinal, o programador vai receber um esqueleto visual e precisará de um bom vocabulário de técnicas para colocar aquilo no ar exatamente como o roteiro mandar. Além disso, deverá saber gerenciar a parte estrutural.
+
+
+entre em contato conosco
+Caso tenha se interessado pelo assunto, entre em contato conosco para mais informações.
+
+
+FIC MAnha sala 15
+R. Direita, 955 - Vila Santo Antônio, Cotia
+
+Copyrigth © fic manha - sala 15 
+
+
+Paleta de cores:
+#D8E3E7
+#51C4D3
+#126E82
+#132C33

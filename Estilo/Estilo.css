@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+    width: var(--Largura);
+    margin: auto;
+}
+:root{
+    --branco:#D8E3E7;
+    --azulClaro:#51C4D3;
+    --azulEscuro:#132C33;
+    --verdeEscuro:#126E82;
+    --cinza: rgb(231, 242, 245);
+    --Largura:1280px;
+}
+.cabecalho{
+    width: var(--Largura);
+    margin: auto;
+    display: flex;
+    background-color: var(--azulEscuro);
+    padding: 20px 0 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho img{
+    padding-left: 40px;
+    margin-left: 40px;
+}
+.link ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+.link ul li{
+   padding: 0px 40px 0px 40px;
+   margin-right: 40px;
+}
+.link ul li a{
+    text-decoration:none;
+    color: var(--branco);
+}
+.web{
+    text-align: center;
+    padding: 40px ;
+    margin: 20px 0 10px 0;
+    
+}
+.web h1{
+    color: var(--azulEscuro);
+    text-transform: uppercase;
+    font-size: 32px;
+    color: var(--azulEscuro);
+    padding: 32px 0;
+}
+.web p{
+    font-size: 20px;
+    color: var(--azulEscuro);
+}
+.fotos{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 64px 40px;
+}
+.fotos article{
+    width: 30%;
+}
+.fotos article img{
+   width: 100%;
+}
+.fotos h2{
+    text-transform: uppercase;
+    padding: 32px 0;
+}
+.fotos p{
+    text-align: left;
+    font-size: 20px;
+}
+.texto{
+    padding: 120px 40px;
+    margin: auto;
+    background-color: var(--verdeEscuro);
+    color: var(--branco);
+}
+.texto h3{
+    text-transform: uppercase;
+    font-size: 32px;
+    padding: 0 150px 40px 0;
+}
+.texto p{
+    padding: 40px 500px 40px 0; 
+    font-size: 20px;
+}
+.formulario{
+    display: flex;
+    padding: 80px 40px 80px 40px;
+    width: 100%;
+    margin: 40px 0 40px 0;
+}
+.contato{
+    padding-right: 136px;
+}
+.contato h4{
+    font-size: 24px;
+    padding: 30px 0;
+}
+.div{
+    display: flex;
+    padding-left: 136px;
+    align-items: start;
+}
+.nome{
+    padding-right: 32px;
+}
+.nome label{
+    display: block;
+    padding-bottom: 16px;
+}
+.nome input{
+    border-radius: 8px;
+    padding: 4px;
+    background-color:var(--cinza);
+}
+.email label{
+    display: block;
+    padding-bottom: 16px;
+}
+.email input{
+    border-radius: 8px;
+    padding: 4px;
+    background-color: var(--cinza);
+}
+.mensagem{
+    padding: 16px 0 0 136px;
+}
+.mensagem label{
+    display: block;
+    padding-bottom: 16px;
+}
+.mensagem textarea{
+    border-radius: 8px;
+    padding: 4px;
+    background-color: var(--cinza);
+}
+.botao{
+    padding:16px 0 0  136px;
+}
+button {
+    position: relative;
+    background-color:var(--azulEscuro);
+    border-radius: 5px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 154px;
+    height: 42px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+}
+button::before {
+    content: "";
+    background-color:var(--azulClaro);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 700ms ease-in-out;
+    display: inline-block;
+  }
+button:hover::before {
+    width: 100%;
+}
+.rodape{
+    text-align: center;
+}
+.endereco{
+    padding: 32px 0 32px 0;
+    background-color: var(--verdeEscuro);
+    text-transform: uppercase;
+    color: var(--branco);
+}
+.endereco h5{
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+.endereco h6{
+    font-size: 20px;
+}
+.rodape iframe{
+    width: 100%;
+}
+.rodape p{
+    padding: 32px 0 32px 0;
+    background-color: var(--azulEscuro);
+    font-size: 20px;
+    color: var(--branco);
+    text-transform: uppercase;
+}
+.rodape span{
+    text-transform: lowercase;
+    font-size: 16px;
+}
